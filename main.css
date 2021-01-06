@@ -1,0 +1,279 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.tianmaoweb{
+    position:relative;
+}
+.Navigation{
+  height:32px;
+  width:auto;
+  top:0;
+  color: #999999;
+  font-size: 12px;
+  box-shadow: 0.2px 0.2px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.NavLeft{
+  height: 32px;
+  padding: 0 auto 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Nav_Hello{
+    margin-left: 50px;
+}
+.Nav_login{
+    margin:0px 10px 0px 15px;
+}
+
+.NavRight{
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mytianmao{
+  margin:0px 5px 0px 5px;
+ 
+}
+.mytianmao_show{
+    height:30px;
+    display: flex;
+    align-items: center;
+}
+.mytianmao_Bd{
+    display: none;
+    position:absolute;
+}
+
+.shoppingCar{
+    margin:0px 5px 0px 5px;
+}
+.favorite{
+    margin:0px 5px 0px 5px;
+}
+.favorite_show{
+    height:32px;
+    display: flex;
+    align-items: center;
+}
+.favorite_Bd{
+    display: none;
+    position:absolute;
+}
+.tel_vision{
+    margin:0px 5px 0px 5px;
+}
+.mytaobao{
+    margin:0px 5px 0px 5px;
+}
+.business_support{
+    margin:0px 5px 0px 5px;
+}
+.web_navigation{
+    margin:0px 150px 0px 0px;
+}
+.Navigation a:hover{
+    color:#FF0036;
+    cursor:pointer;
+}
+
+.header{
+    position:absolute;
+    top:32px;
+    height: 130px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+.imgContainer{
+    width: 290px;
+}
+.searchBox{
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+.searchform{
+    position:relative;
+    width:400px;
+    height: 40px;
+    margin:0px 0px 0px 200px;
+    border: solid #FF0036;
+    border-width: 2px 0 2px 2px;
+}
+#sinput{
+    position:absolute;
+    top:0;
+    width:276px;
+    height: 40px;
+    padding: 0 0 0 4px;
+    outline:0;
+    border:0;
+    font-size: 16px;
+}
+#slabel{
+   position:absolute;
+   width:276px;
+   height: 40px;
+   line-height: 40px;
+   left:8px;
+   top:0;
+   z-index:1;
+   font-size: 14px;
+   visibility: visible;
+   overflow:hidden;
+
+}
+#sbutton{
+    position: absolute;
+    left:280px;
+    width: 120px;
+    height: 40px;
+    color:#FFFFFF;
+    background-color: #FF0036;
+    border:0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.inner-cont0{
+    position:absolute;
+    top:162px;
+    height:36px;
+    width:auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+}
+.inner-cont0 a:hover{
+    color:#FF0036;
+    cursor:pointer;
+}
+.category-type{
+    width: 200px;
+    height: 36px;
+    left:50px;
+    color: #fff;
+    background-color: #FF0036;
+    position: absolute;
+    line-height: 36px;
+}
+.inner-cont1{
+    position:absolute;
+    left:250px;
+    height: 36px;
+    line-height: 36px;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+
+
+}
+.tianmaomarket{
+    margin:3px 0;
+}
+.tianmaointerNa{
+    margin:3px 0;
+}
+.hover-pic{
+    width:100px;   
+}
+
+#floatBan{
+    position:absolute;
+    top:198px;
+    left:50px;
+    float:none;
+    line-height: 31.2px;
+    font-size: 14px;
+    color:#fff;
+    text-align: center;
+    z-index:2;
+}
+#floatBan ul{
+    background-color: rgba(0,0,0,.55);
+    margin:0;
+    padding:0;
+}
+#floatBan ul li{
+   list-style: none;
+   width: 200px;
+}
+#floatBan ul li:hover{
+   background-color: #FFFFFF; 
+   color: black;
+}
+#floatBan ul li ul li{
+    width: 830px;
+    height: 500px;
+    background-color: #FFFFFF;
+    position:absolute;
+    top:0;
+    left:200px;
+    visibility: hidden;
+}
+
+#inner_scroll{
+    position:absolute;
+    top:198px;
+    height: 500px;
+    width:1080px;
+    background-color: blue;
+    z-index:1;
+}
+
+#big_ativi{
+    position:absolute;
+    top:698px;
+    width:auto;
+}
+.iconCon{
+    display:flex;
+    flex-direction: row;
+}
+.iconCon ul{
+    padding:0;
+}
+.iconCon ul li {
+    list-style: none;
+}
+.iconCon ul li a{
+    z-index:1;
+    position: absolute;
+    top:0;
+    background-color:black;
+    opacity: 0;
+    transition: all .3s ease-out;
+}
+.iconCon ul li a:hover{
+    opacity: 0.9;
+    cursor:pointer;
+} 
+.iconLink{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+}
+
+.iconOnclick{
+    border-radius:5px;
+    background-color: red;
+    padding:0 2px;
+}
+
+
